@@ -16,6 +16,15 @@ import java.util.Scanner;
 public class ArithmeticBase 
 {
  public double x,y;
+  public enum opp{
+      PLUS,MINUS,TIMES,DIVIDE;
+       } 
+  public enum nopp{
+      operations;
+      public enum(operations){
+          this.operations=operations;
+      }
+  }
     double calculate(double x, double y) 
         {
         Scanner sc =new Scanner(System.in);
